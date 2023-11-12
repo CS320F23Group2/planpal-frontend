@@ -1,2 +1,12 @@
 # planpal-frontend
-The current frontend portion of Planpal, a project for CS 320.
+
+## Description
+The current frontend portion of Planpal, a project for CS 320. Our frontend is based on React-Bootstrap and is routed with Express. 
+
+## Authors
+### Frontend Team
+Gauri Arvind
+
+
+## Project Structure
+To be continued, is basically the table of contents
