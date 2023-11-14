@@ -5,9 +5,9 @@ The current frontend portion of Planpal, a project for CS 320. Our frontend is b
 
 ## Authors
 ### Frontend Team
-Gauri Arvind
-Riya Sharma
-Aaditya Vikram
+  - Gauri Arvind
+  - Riya Sharma
+  - Aaditya Vikram
 
 
 
