@@ -1,0 +1,271 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Dashboard */
+.dashboard-container {
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #007ACC;
+  padding: 20px;
+}
+
+.dashboard-title {
+  font-size: 36px;
+  color: #fff;
+  margin: 0;
+}
+
+.dashboard-date {
+  font-size: 24px;
+  color: #007ACC;
+  background: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 70%;
+  margin: 20px 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  background-color: #fff;
+  border: 2px solid #007ACC;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin: 0 10px;
+}
+
+.dashboard-button {
+  text-decoration: none;
+  color: #fff;
+  background-color: #007ACC;
+  padding: 10px 20px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.dashboard-button i {
+  font-size: 20px;
+}
+
+.dashboard-content {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.dashboard-card {
+  background-color: #fff;
+  color: #333;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  flex-basis: 47%;
+}
+
+.dashboard-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dashboard-card li {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.dashboard-card input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.section-title {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.dashboard-section {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.task-clock {
+  margin-left: auto;
+}
+/* login Page */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #e9e9e9;
+}
+
+.login-box {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-box h2 {
+  font-size: 28px;
+  color: #007ACC;
+  margin-bottom: 20px;
+}
+
+.login-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007ACC;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.login-button:hover {
+  background-color: #0056A8;
+}
+
+
+/* calendar */
+.calendar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #F1F1F1;
+}
+
+
+.calendar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #F1F1F1;
+}
+
+
+.calendar {
+  width: 95%;
+  max-height: 800px; 
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* calendar title */
+.calendar h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* calendar events */
+
+
+
+
+
+
+
+/* new event */
+
+.new-event-container {
+  background-color: #efe6e6;
+  color: #f1eeee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.new-event-header {
+  background-color: #1084d1;
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+}
+
+.new-event-title {
+  font-size: 24px;
+  margin: 0;
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+.label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007ACC;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056A8;
+}
