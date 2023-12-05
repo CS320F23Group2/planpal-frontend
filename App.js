@@ -7,6 +7,7 @@ import Dashboard from './dashboard';
 import Calendar from './calendar'; 
 import NewEvent from './newEvent'; 
 import Settings from './settings'; 
+import InsertCalendar from './insertCalendar';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/calendar" element={<Calendar />} />
           <Route path="/new-event" element={<NewEvent />} />
           <Route path="/settings" element={<Settings />} />
+          <Route path="/insert-calendar" element={<InsertCalendar />} />
           <Route path="/*" element={<Login />} />
         </Routes>
       </div>
