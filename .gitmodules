@@ -1,0 +1,3 @@
+[submodule "auth-sveltekit"]
+	path = auth-sveltekit
+	url = https://github.com/VAadit-NaN/auth-sveltekit.git

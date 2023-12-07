@@ -5,7 +5,9 @@ PlanPal is a website that allows users to generate study schedules based on thei
 
 This repository focuses on the frontend portion of PlanPal. Our frontend is based on React-Bootstrap and is routed with Express. 
 
->PlanPal is a project for CS 320, the software engineering course at UMass Amherst.
+> PlanPal is a project for CS 320, the software engineering course at UMass Amherst.
+
+> NOTE: The auth-sveltekit submodule was designed to integrate authentication and fully deploy the frontend before product demonstrations, but was not intended to replace the frontend.   
 
 ## Authors
 ### Frontend Team
@@ -22,6 +24,7 @@ Our repository hosts a number of files associated with the frontend, organized a
    - newEvent.js: React page that allows users to create an event with the name of the event, a description of the event, the start date      of the event, and the end date of the event.
    - register.js: React page that allows users to sign up for PlanPal. This file is included in our most recent version.  
    - settings.js: React page that contains the user's settings for their PlanPal account, which include profile, account, notification,       and privacy settings.
+
 
 ## How to Run PlanPal
 To run PlanPal, download the files associated with the project, then run npm install to download any dependencies and npm start to start the application. The initial startup of the application may take time to fully log in. 
